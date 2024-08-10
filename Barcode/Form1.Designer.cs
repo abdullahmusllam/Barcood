@@ -32,7 +32,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.typeBarcodeLap = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.typeBarcodeTxt = new System.Windows.Forms.TextBox();
             this.BarcodeTxt = new System.Windows.Forms.TextBox();
             this.nameClassLap = new System.Windows.Forms.Label();
             this.NameClassTxt = new System.Windows.Forms.TextBox();
@@ -44,6 +43,7 @@
             this.SaveBtn = new DevExpress.XtraEditors.SimpleButton();
             this.OpenBtn = new DevExpress.XtraEditors.SimpleButton();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.TypeBarcodeComo = new System.Windows.Forms.ComboBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -52,6 +52,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DarkTurquoise;
+            this.panel1.Controls.Add(this.TypeBarcodeComo);
             this.panel1.Controls.Add(this.dataGridView1);
             this.panel1.Controls.Add(this.OpenBtn);
             this.panel1.Controls.Add(this.SaveBtn);
@@ -62,7 +63,6 @@
             this.panel1.Controls.Add(this.NameClassTxt);
             this.panel1.Controls.Add(this.nameClassLap);
             this.panel1.Controls.Add(this.BarcodeTxt);
-            this.panel1.Controls.Add(this.typeBarcodeTxt);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.typeBarcodeLap);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
@@ -93,14 +93,6 @@
             this.label1.Size = new System.Drawing.Size(67, 24);
             this.label1.TabIndex = 1;
             this.label1.Text = "Barcode";
-            // 
-            // typeBarcodeTxt
-            // 
-            this.typeBarcodeTxt.Location = new System.Drawing.Point(12, 43);
-            this.typeBarcodeTxt.Name = "typeBarcodeTxt";
-            this.typeBarcodeTxt.Size = new System.Drawing.Size(261, 31);
-            this.typeBarcodeTxt.TabIndex = 2;
-            this.typeBarcodeTxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // BarcodeTxt
             // 
@@ -220,6 +212,14 @@
             this.dataGridView1.Size = new System.Drawing.Size(292, 266);
             this.dataGridView1.TabIndex = 12;
             // 
+            // TypeBarcodeComo
+            // 
+            this.TypeBarcodeComo.FormattingEnabled = true;
+            this.TypeBarcodeComo.Location = new System.Drawing.Point(16, 43);
+            this.TypeBarcodeComo.Name = "TypeBarcodeComo";
+            this.TypeBarcodeComo.Size = new System.Drawing.Size(257, 32);
+            this.TypeBarcodeComo.TabIndex = 13;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -249,7 +249,6 @@
         private System.Windows.Forms.TextBox NameClassTxt;
         private System.Windows.Forms.Label nameClassLap;
         private System.Windows.Forms.TextBox BarcodeTxt;
-        private System.Windows.Forms.TextBox typeBarcodeTxt;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label typeBarcodeLap;
         private System.Windows.Forms.PictureBox pictureBox1;
@@ -257,6 +256,7 @@
         private DevExpress.XtraEditors.SimpleButton OpenBtn;
         private DevExpress.XtraEditors.SimpleButton SaveBtn;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.ComboBox TypeBarcodeComo;
     }
 }
 
