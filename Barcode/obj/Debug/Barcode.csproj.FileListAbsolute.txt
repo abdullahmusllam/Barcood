@@ -52,3 +52,5 @@ D:\Projects\Barcode\Barcode\obj\Debug\Barcode.Properties.Resources.resources
 D:\Projects\Barcode\Barcode\obj\Debug\Barcode.csproj.GenerateResource.Cache
 D:\Projects\Barcode\Barcode\obj\Debug\Barcode.exe
 D:\Projects\Barcode\Barcode\obj\Debug\Barcode.pdb
+D:\Projects\Barcode\Barcode\bin\Debug\Database1.mdf
+D:\Projects\Barcode\Barcode\bin\Debug\Database1_log.ldf
